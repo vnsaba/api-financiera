@@ -8,17 +8,17 @@ La API no retorna la respuesta original, sino que filtra y simplifica la informa
     - Instalar dependencias: npm install
     - Configurar variables de entorno .env que estan en .env.example
     - Ejecutar el servidor:  npm run dev
-    - Registro de Usuario: POST http://localhost:3000/api/register
+    - Registro de Usuario: POST http://localhost:3000/api/register   o https://api-financiera-h4argzbabsd7ekd3.eastus-01.azurewebsites.net/api/register
         {
             "email": "test@test.com",
             "password": "123"
         }
-    - Inicio de sesion para obtener el token: POST http://localhost:3000/api/login
+    - Inicio de sesion para obtener el token: POST http://localhost:3000/api/login o https://api-financiera-h4argzbabsd7ekd3.eastus-01.azurewebsites.net/api/login
         {
             "email": "test@test.com",
             "password": "123"
         }
-    - Consultar Criptomonedas (Ruta Protegida): GET http://localhost:3000/api/cryptos
+    - Consultar Criptomonedas (Ruta Protegida): GET http://localhost:3000/api/cryptos o o https://api-financiera-h4argzbabsd7ekd3.eastus-01.azurewebsites.net/api/cryptos
 
 ## 3. API externa utilizada
 Se utilizó la API pública de CoinGecko:
