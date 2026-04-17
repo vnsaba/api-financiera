@@ -32,7 +32,7 @@ Se implementó una arquitectura limpia basada en capas para garantizar la escala
 - **Entities**: Modelos de datos gestionados con TypeORM.
 - **Middlewares**: Protección de rutas mediante JWT
 
-## 5. Docker 🐳
+## 5. Docker 
 El proyecto está containerizado para facilitar el despliegue:
 
 ```bash
